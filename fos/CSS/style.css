@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Nosifer);
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #cccccc;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-repeat:no-repeat;
+	background-position: fixed;
+	overflow: hidden;
+}
+
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	max-width: 100%;
+	text-align: center;
+	margin: .4em auto;
+}
+
+.logo {
+	margin: .3em .2em;
+	float: left;
+	border-radius: 1.5em;
+	height: 25%;
+	width: 25%;
+}
+
+header h2 {
+	font-family: 'Nosifer', cursive;
+	text-align: center;
+	margin-left: .2em;
+}
+
+/* h1 style for font */
+h1 {
+	font-family: 'Nosifer', cursive;
+	display: inline-block;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	text-shadow:
+	1px 0 1px #000,
+	0 1px 1px #000,
+	-1px 0 1px #000,
+	0 -1px 1px #000;
+	margin-left: .2em;
+}
+
+nav {
+	clear: both;
+}
+
+ul {
+	text-align: center;
+}
+li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+}
+
+.navi {
+	display: inline-block;
+	list-style: none;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	text-decoration: none;
+	-webkit-text-decoration: none;
+	box-sizing: content-box;
+	padding: 20px;
+	border: none;
+	font: normal 2em "Monoton", Helvetica, sans-serif;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	text-shadow: 
+		0 0 3px rgb(255,255,255), 
+		0 0 8px rgb(255,255,255), 
+		0 0 5px rgb(255,255,255), 
+		0 0 15px rgb(153, 102, 255), 
+		0 0 25px rgb(153, 102, 255), 
+		0 0 30px rgb(153, 102, 255), 
+		0 0 30px rgb(153, 102, 255), 
+		0 0 40px rgb(153, 102, 255);
+	-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+}
+
+.navi:hover {
+	text-shadow: 
+		0 0 6px rgb(255,255,255), 
+		0 0 16px rgb(255,255,255), 
+		0 0 10px rgb(255,255,255), 
+		0 0 10px rgb(153, 102, 255), 
+		0 0 30px rgb(153, 102, 255), 
+		0 0 60px rgb(153, 102, 255),
+		0 0 60px rgb(153, 102, 255), 
+		0 0 80px rgb(153, 102, 255);
+}
+
+footer {
+	font-size: .7em;
+	text-align: right;
+}
+
+img {
+	max-width: 100%;
+}
