@@ -1,11 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Nosifer);
 
 html {
-	height: 100%;
 }
 
 body {
-	height: 100%;
 	background-color: #cccccc;
 	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,7 +11,6 @@ body {
     background-size: cover;
 	background-repeat:no-repeat;
 	background-position: fixed;
-	overflow: hidden;
 }
 
 #wrapper {
@@ -40,23 +37,6 @@ h2 {
 	font-size: 1.5em;
 }
 
-ul {
-	text-align: center;
-	background-color: black;
-	padding: .1em 1em;
-	border-radius: 2em;
-}
-li {
-	display: inline-block;
-	list-style: none;
-	text-align: center;
-	margin: 0 2em;
-}
-
-main {
-	
-}
-
 .navi {
 	display: inline-block;
 	list-style: none;
@@ -65,9 +45,9 @@ main {
 	text-decoration: none;
 	-webkit-text-decoration: none;
 	box-sizing: content-box;
-	padding: 20px;
+	padding: .3em;
 	border: none;
-	font: normal 2em "Monoton", Helvetica, sans-serif;
+	font: normal 1.5em "Monoton", Helvetica, sans-serif;
 	color: rgba(255,255,255,1);
 	text-align: center;
 	-o-text-overflow: ellipsis;
@@ -99,10 +79,60 @@ main {
 		0 0 80px rgb(153, 102, 255);
 }
 
+nav ul {
+	text-align: center;
+	background-color: black;
+	padding: .1em 1em;
+	border-radius: .8em;
+	margin-top: .2em;
+}
+nav li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	margin: 0 2em;
+}
+
+main {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.contentcontainers {
+	padding: 3em;
+	background-color: black;
+	text-shadow:
+		.1em 0 .1em rgb(153, 102, 255),
+		0 .1em .1em rgb(153, 102, 255),
+		-.1em 0 .1em rgb(153, 102, 255),
+		0 -.1em .1em rgb(153, 102, 255);
+	border-radius: 2em;
+}
+
+main li {
+	list-style: none;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+main p {
+	font-size: 1.5em;
+}
+
 footer {
 	font-size: .7em;
 	text-align: right;
 	margin-bottom: 4em;
+	padding: 1em;
+	width: 100%;
+	background-color: black;
+	color: white;
+	margin-top: 1em;
+	border-radius: 1em;
 }
 
 img {
