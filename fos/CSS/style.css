@@ -14,9 +14,53 @@ body {
 }
 
 #wrapper {
-	max-width: 80%;
+	max-width: 100%;
 	margin: 0 auto;
 }
+
+/* addition start */
+header {
+	max-width: 100%;
+	text-align: center;
+	margin: .4em auto;
+}
+
+.logo {
+	margin: .3em .2em;
+	float: left;
+	border-radius: 1.5em;
+	height: 20em;
+	width: 5em;
+}
+
+header h2 {
+	font-family: 'Nosifer', cursive;
+	text-align: center;
+	margin-left: .2em;
+	text-shadow:
+		.1em 0 .1em rgb(153, 102, 255),
+		0 .1em .1em rgb(153, 102, 255),
+		-.1em 0 .1em rgb(153, 102, 255),
+		0 -.1em .1em rgb(153, 102, 255);
+	color: white;
+}
+
+/* h1 style for font */
+h1 {
+	font-family: 'Nosifer', cursive;
+	display: inline-block;
+	font-size: 3em;
+	text-align: center;
+	color: white;
+	text-shadow:
+		.1em 0 .1em rgb(153, 102, 255),
+		0 .1em .1em rgb(153, 102, 255),
+		-.1em 0 .1em rgb(153, 102, 255),
+		0 -.1em .1em rgb(153, 102, 255);
+	margin-left: .2em;
+}
+/* addition end */
+
 
 header {
 	max-width: 100%;
@@ -30,7 +74,7 @@ header {
 /* h1 style for font */
 h1 {
 	display: inline-block;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 h2 {
@@ -87,10 +131,10 @@ nav ul {
 	margin-top: .2em;
 }
 nav li {
-	display: inline-block;
 	list-style: none;
-	text-align: center;
+	text-align: left;
 	margin: 0 2em;
+	text-align: center;
 }
 
 main {
@@ -109,32 +153,36 @@ main {
 		-.1em 0 .1em rgb(153, 102, 255),
 		0 -.1em .1em rgb(153, 102, 255);
 	border-radius: 2em;
+	font-size: .9em;
 }
 
 main li {
 	list-style: none;
+	font-size: .9em;
+	text-align: left;	
 }
 
 h3 {
-	font-size: 2em;
+	font-size: 1.7em;
 }
 
 main p {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 footer {
 	font-size: .7em;
-	text-align: right;
 	margin-bottom: 4em;
 	padding: 1em;
-	width: 100%;
+	text-align: center;
 	background-color: black;
 	color: white;
 	margin-top: 1em;
 	border-radius: 1em;
-}
-
-img {
 	max-width: 100%;
+	text-shadow:
+		.1em 0 .1em rgb(153, 102, 255),
+		0 .1em .1em rgb(153, 102, 255),
+		-.1em 0 .1em rgb(153, 102, 255),
+		0 -.1em .1em rgb(153, 102, 255);
 }
